@@ -1,2 +1,46 @@
 /**/
 
+body{
+  background-color:white;
+  text-align:center;
+  position:center;
+}
+
+#main-top-title{
+  
+  width: 90%;
+  padding-top: 60px;
+  
+}
+
+.main-top-sab{
+  fount-family:Georgia;
+  fount-size:40px;
+  color:#A9A9A9;
+  text-align:center;
+}
+
+.want-box{
+    height:1%;
+    margin-left:2%;
+    margin-right:20%;
+    
+}
+
+.want-box-text{
+  width:40%;
+ height:88px;
+ border:2px solid #e4405f;
+ border-radius:10px;
+ text-indent:10px;
+ float:left;
+ margin-right: 10px;
+ margin-left:10px;
+ margin-top:20px;
+}
+
+.waves-effect{
+    margin-right:5%;
+    float:right;
+}
+

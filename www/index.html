@@ -1,17 +1,25 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+    <title>Instasearch</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <script src="components/loader.js"></script>
     <script src="lib/onsenui/js/onsenui.min.js"></script>
-
+    <link href="css/style.css" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
     <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="js/script.js">
+        
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
         ons.ready(function() {
             console.log("Onsen UI is ready!");
@@ -19,6 +27,33 @@
     </script>
 </head>
 <body>
+    <script type="text/javascript" src="js/main.js"></script>
+	<div class ="main">
+		<div class ="main-top">
+			<img src="./image/InstaSearch.png" id="main-top-title">
+		    <div class ="main-top-sab">~Instagaramから見たいものがすぐにみつかる~</div>
+		    <div class ="contents-want">
+			    <div class ="want-box">
+                    <div class="input-field col s6" id="serch-plus">
+                        <ul>
+                            <li>
+                                <i class="material-icons prefix">#</i>
+                                <input id="icon_prefix" type="text" class="validate"  placeholder="タグ名">
+                            </li>
+                        </ul>
+                    </div>
+		        </div>
+                <a class="waves-effect waves-light btn black" id ="add-button"><i class="material-icons">add</i></a>
+		    </div>
+	   </div>
+	    <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;" onclick="myNavigator.pushPage('page2.html',{animation : 'slide'} )"">
+            <a class="btn-floating btn-large" style="padding-right: 55px;">
+            <img src="./image/instaColor.png" style="position: absolute; z-index: 0;">
+            <i class="large material-icons" style="position: absolute; z-index: 1;">search</i>        
+            </a>
+	    </div>
+    </div>
+
    
 </body>
 </html>
