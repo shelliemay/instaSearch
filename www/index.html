@@ -8,28 +8,25 @@
     <script src="components/loader.js"></script>
     <script src="lib/onsenui/js/onsenui.min.js"></script>
     <link href="css/style.css" rel="stylesheet">
-  
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
     <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/script.js">
-        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
     <script src="js/script.js"></script>
-    <script>
-        ons.ready(function() {
-            console.log("Onsen UI is ready!");
-        });
-    </script>
 </head>
 <body>
-    <script type="text/javascript" src="js/main.js"></script>
-	<div class ="main">
-		<div class ="main-top">
+    <div class ="main">
+        <div class ="main-top">
 			<img src="./image/InstaSearch.png" id="main-top-title">
 		    <div class ="main-top-sab">~Instagaramから見たいものがすぐにみつかる~</div>
 		    <div class ="contents-want">
@@ -46,14 +43,12 @@
                 <a class="waves-effect waves-light btn black" id ="add-button"><i class="material-icons">add</i></a>
 		    </div>
 	   </div>
-	    <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;" onclick="myNavigator.pushPage('page2.html',{animation : 'slide'} )"">
-            <a class="btn-floating btn-large" style="padding-right: 55px;">
+	    <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;" >
+            <a href="./search.html" class="btn-floating btn-large" style="padding-right: 55px;" class="animsition-link">
             <img src="./image/instaColor.png" style="position: absolute; z-index: 0;">
-            <i class="large material-icons" style="position: absolute; z-index: 1;">search</i>        
+            <i class="large material-icons" style="position: absolute; z-index: 1;" >search</i>
             </a>
 	    </div>
     </div>
-
-   
 </body>
 </html>

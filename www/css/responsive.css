@@ -2,8 +2,12 @@
 
 }
 
-@media all and (min-width:1000px{
-
+@media all and (mix-width:1000px{
+    
+    #main-top-title{
+        margin:0 auto;
+        width:50%;
+    }
   }
 
 @font-family{
