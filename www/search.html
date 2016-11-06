@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.js"></script>
@@ -25,14 +26,14 @@
   <link rel="stylesheet" href="css/search.css">
 </head>
 <p class="z-depth-5"><header>
-        <a href="#test1">#tokyoskidsfaggergvseadc</a>
-        <a href="#test2">#tokyotoikasdfasdf</a>
-        <a href="#test3">#tokyodisdfadfs</a> 
+        <a href="#test1" class ="chip">#tokyoskidsfaggergvseadc<i class="close material-icons">close</i></a>
+        <a href="#test2" class ="chip">#tokyotoikasdfasdf<i class="close material-icons">close</i></a>
+        <a href="#test3" class ="chip">#tokyodisdfadfs<i class="close material-icons">close</i></a> 
 </header>
 </p>
 <body class="animsition">
     <ul id="image-list">
-        <li><img  src="image/hightBox.jpg"></li>
+        <li><a href="./pickUp.html"><img  src="image/hightBox.jpg"></a></li>
         <li><img src="image/moonbox.jpeg"></li>
         <li><img src="image/rectancle.jpg"></li>
         <li><img  src="image/hightBox.jpg"></li>
@@ -45,12 +46,21 @@
         <li><img src="image/moonbox.jpeg"></li>
         <li><img src="image/rectancle.jpg"></li>
     </ul>
+     <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 240px;" >
+        <a href="./index.html" class="btn-floating btn-large" style="padding-right: 55px;" class="animsition-link">
+        <img src="./image/instaColor.png" style="position: absolute; z-index: 0;">
+        <i class="large material-icons" style="position: absolute; z-index: 1;" >search</i>
+        </a>
+    </div>
+
 <!-- TODO: Please edit here -->
     <script>
   $(document).ready(function() {
     $('.animsition').animsition();
   });
+  
   </script>
-
+  
+  
 </body>
 </html>

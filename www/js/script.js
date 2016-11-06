@@ -14,6 +14,6 @@ $('#add-button').click(
 });
 
 function deback(){
-    window.location.href = 'search.html';
+    window.location.href = 'pickUp.html';
 }
     
